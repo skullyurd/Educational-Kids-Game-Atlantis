@@ -1,0 +1,843 @@
+fileFormatVersion: 2
+guid: da2b1e37ee5840d4d93d7ae9ac57f168
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3278672781593390503
+    second: golven spritesheet_0
+  - first:
+      213: 8259499193602890169
+    second: golven spritesheet_8
+  - first:
+      213: 1061119273013523874
+    second: golven spritesheet_9
+  - first:
+      213: -8337447186601793420
+    second: golven spritesheet_10
+  - first:
+      213: 4907726465870246369
+    second: golven spritesheet_11
+  - first:
+      213: -7030383912818413355
+    second: golven spritesheet_12
+  - first:
+      213: -121073454835118312
+    second: golven spritesheet_13
+  - first:
+      213: -7579588660473847411
+    second: golven spritesheet_14
+  - first:
+      213: 6911718440909791599
+    second: golven spritesheet_15
+  - first:
+      213: 219268289212656397
+    second: golven spritesheet_16
+  - first:
+      213: 9205240104063546610
+    second: golven spritesheet_22
+  - first:
+      213: -9183792415722853248
+    second: golven spritesheet_31
+  - first:
+      213: 1397245498888701181
+    second: golven spritesheet_32
+  - first:
+      213: 2221966361196365202
+    second: golven spritesheet_33
+  - first:
+      213: 2750196458270407471
+    second: golven spritesheet_34
+  - first:
+      213: 5791655907302158008
+    second: golven spritesheet_35
+  - first:
+      213: -3250109569965214593
+    second: golven spritesheet_36
+  - first:
+      213: 487428598465138412
+    second: golven spritesheet_37
+  - first:
+      213: 4035668153728216215
+    second: golven spritesheet_38
+  - first:
+      213: 7847565837203744527
+    second: golven spritesheet_39
+  - first:
+      213: -7675220422497614948
+    second: golven spritesheet_40
+  - first:
+      213: -913028425071071229
+    second: golven spritesheet_41
+  - first:
+      213: 1211172496608921004
+    second: golven spritesheet_42
+  - first:
+      213: -6663655673968131927
+    second: golven spritesheet_43
+  - first:
+      213: 3600704417933819542
+    second: golven spritesheet_44
+  - first:
+      213: 8520259555165495033
+    second: golven spritesheet_45
+  - first:
+      213: 1832432027766674026
+    second: golven spritesheet_46
+  - first:
+      213: -4434430645329739197
+    second: golven spritesheet_47
+  - first:
+      213: 7130702585704562130
+    second: golven spritesheet_48
+  - first:
+      213: 2288955421188745051
+    second: golven spritesheet_49
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: golven spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 520
+        width: 327
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d567026e95027ef41b0f64a3f25a8d86
+      internalID: -3278672781593390503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 520
+        width: 329
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651821226712c07479a721d3ad2dd68a
+      internalID: 8259499193602890169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 520
+        width: 328
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f285e22564ff91646904b2735fce534c
+      internalID: 1061119273013523874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 520
+        width: 327
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49f2fc3a63e3d754bb752abc46fc21f5
+      internalID: -8337447186601793420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 520
+        width: 327
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c509f3dfd5ee6047a4b0ec5685ad32f
+      internalID: 4907726465870246369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 522
+        width: 326
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0778ec3c2338d3e4d9918489f09035ce
+      internalID: -7030383912818413355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3038
+        y: 522
+        width: 326
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 199ba59271307a341991c2bd7e52afc1
+      internalID: -121073454835118312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 520
+        width: 325
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a147967cbca4154793dabaf30cb9f0e
+      internalID: -7579588660473847411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 520
+        width: 327
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c65126584b7bc74d841238fe21f3b54
+      internalID: 6911718440909791599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 520
+        width: 325
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68808bc750186c418eaae478f09b7c2
+      internalID: 219268289212656397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 286
+        width: 328
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8498c2b8aa9fa724987c412154aebfdf
+      internalID: 9205240104063546610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 286
+        width: 327
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd9f2e04817ca34a81ac1b3d020675c
+      internalID: -9183792415722853248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 285
+        width: 329
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853ce9d1fbb9d574cbf9842ee5561730
+      internalID: 1397245498888701181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 285
+        width: 328
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddc5fc1e41f9584bbd705301bcedc4e
+      internalID: 2221966361196365202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 285
+        width: 329
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825f14615b60eb04f8e359d50fd88b11
+      internalID: 2750196458270407471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 286
+        width: 328
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e3ce47fe478004bb5f79f4e1016084
+      internalID: 5791655907302158008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 286
+        width: 327
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229ce7a88eeaeda45be9a74c00a50837
+      internalID: -3250109569965214593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 288
+        width: 328
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec46466d71a6774dad3becf57afbeaf
+      internalID: 487428598465138412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 285
+        width: 328
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1886fe366f6e1134fa84e2e0a4856789
+      internalID: 4035668153728216215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 286
+        width: 328
+        height: 226
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f00ee686af302f41a4dd5eac8438995
+      internalID: 7847565837203744527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 44
+        width: 329
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04cb389fd3d1ab419f6560e406af832
+      internalID: -7675220422497614948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 43
+        width: 328
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7946c00f5ae34241b5bb10b15b2f150
+      internalID: -913028425071071229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 43
+        width: 329
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754685eb857715d4e9e85bbe5b192ad6
+      internalID: 1211172496608921004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 44
+        width: 328
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3e5ea61e79ff846bc921219afc4daf
+      internalID: -6663655673968131927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 49
+        width: 329
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cccb4b7f5387b4598c0137577e008c
+      internalID: 3600704417933819542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 48
+        width: 329
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5736fbc6c3eb4cc41a5e63affe50368d
+      internalID: 8520259555165495033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 48
+        width: 328
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b9a29ad24e9af4d8ed61ab7e01fdf5
+      internalID: 1832432027766674026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 44
+        width: 329
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a0103d0755f915439e3f4809fa05957
+      internalID: -4434430645329739197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 2717
+        y: 44
+        width: 330
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bba78351c75d6844ac4daeedce97d7a
+      internalID: 7130702585704562130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: golven spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 3052
+        y: 43
+        width: 328
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4eaf196e2ab1a4f8a42a465f5674cb
+      internalID: 2288955421188745051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 69efcb90c0608a840a13feffd9efd3e1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
