@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Not_destroy : MonoBehaviour
 {
-    // Update is called once per frame
     void Update()
     {
         DontDestroyOnLoad(this.gameObject);

@@ -4,11 +4,10 @@ using UnityEngine;
 
 public class Change_buildings : MonoBehaviour
 {
+    [SerializeField] private bool dag;
 
-    public bool dag;
-
-    public GameObject destroyed;
-    public GameObject still_ok;
+    [SerializeField] private GameObject destroyed;
+    [SerializeField] private GameObject still_ok;
 
     void Update()
     {
@@ -23,8 +22,6 @@ public class Change_buildings : MonoBehaviour
             still_ok.SetActive(true);
         }
     }
-
-
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

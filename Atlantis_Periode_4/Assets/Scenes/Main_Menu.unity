@@ -284,6 +284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f27b47303dfbf86428c6e44e5a60bbde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text_inlevel: {fileID: 0}
   fact_number: 0
   pause: 0
   Dag: 0

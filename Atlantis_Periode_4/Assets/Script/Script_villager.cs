@@ -6,12 +6,9 @@ using UnityEngine.UI;
 public class Script_villager : MonoBehaviour
 {
 
-    Text text_inlevel;
+    [SerializeField] private Text text_inlevel;
+    [SerializeField] private int dialogue_numb;
 
-    public int dialogue_numb;
-
-
-    // Start is called before the first frame update
     void Start()
     {
         text_inlevel = GameObject.Find("Text").GetComponent<Text>();

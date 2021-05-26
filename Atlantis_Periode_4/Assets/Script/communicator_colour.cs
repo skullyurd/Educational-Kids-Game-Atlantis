@@ -4,12 +4,10 @@ using UnityEngine;
 
 public class communicator_colour : MonoBehaviour
 {
-
     public float R;
     public float G;
     public float B;
 
-    // Start is called before the first frame update
     void Start()
     {
         R = 1;

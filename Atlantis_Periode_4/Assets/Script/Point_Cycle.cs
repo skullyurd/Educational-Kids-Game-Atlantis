@@ -5,18 +5,11 @@ using UnityEngine.UI;
 
 public class Point_Cycle : MonoBehaviour
 {
-    Light sun;
-    communicator_colour commun;
+    [SerializeField] private Light sun;
+    [SerializeField] private communicator_colour commun;
 
-    public Transform water;
+    [SerializeField] private Transform water;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        sun = GameObject.Find("sun").GetComponent<Light>();
-        commun = GameObject.Find("communicator").GetComponent<communicator_colour>();
-
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")

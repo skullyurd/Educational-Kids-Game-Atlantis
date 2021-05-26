@@ -5,7 +5,6 @@ using UnityEngine;
 
 public class Cutscene_over : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
         StartCoroutine(Go_Back());

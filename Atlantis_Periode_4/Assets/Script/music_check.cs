@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class music_check : MonoBehaviour
 {
-
-    GameObject music;
-    public GameObject addMusic;
+    [SerializeField] private GameObject music;
+    [SerializeField] private GameObject addMusic;
 
     // Start is called before the first frame update
     void Start()
@@ -22,11 +21,5 @@ public class music_check : MonoBehaviour
         {
             Debug.Log("er is iets");
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

@@ -5,28 +5,18 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
 
-    public float walkingSpeed;
-    public float jumpSpeed;
+    [SerializeField] private float walkingSpeed;
+    [SerializeField] private float jumpSpeed;
 
-    Rigidbody2D player_rgd;
-    public bool grounded;
+    [SerializeField] private Rigidbody2D player_rgd;
+    [SerializeField] private bool grounded;
 
-    Animator player_anim;
+    [SerializeField] private Animator player_anim;
 
-    public float hor;
+    [SerializeField] private float hor;
 
-    public bool movement;
+    [SerializeField] private bool movement;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        player_rgd = GameObject.Find("2d_player").GetComponent<Rigidbody2D>();
-        player_anim = GameObject.Find("2d_player").GetComponent<Animator>();
-
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         player_anim.SetBool("IsGrounded", grounded);
@@ -58,7 +48,6 @@ public class Movement : MonoBehaviour
         {
             this.gameObject.transform.localScale = new Vector2(-0.374f, 0.374f);
         }
-
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

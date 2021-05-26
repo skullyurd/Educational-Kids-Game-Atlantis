@@ -7,17 +7,12 @@ using UnityEngine.UI;
 public class Button_Functions : MonoBehaviour
 {
 
-    Text text_inlevel;
+    [SerializeField] Text text_inlevel;
 
-    public int fact_number;
+    [SerializeField] private int fact_number;
 
-    public bool pause;
+    [SerializeField] private bool pause;
     public bool Dag;
-
-    void Start()
-    {
-        text_inlevel = GameObject.Find("Text").GetComponent<Text>();
-    }
 
     public void start_game()
     {
@@ -50,8 +45,6 @@ public class Button_Functions : MonoBehaviour
                 text_inlevel.text = " ";
                 break;
         }
-
-
     }
     public void quit_game()
     {
@@ -63,13 +56,11 @@ public class Button_Functions : MonoBehaviour
     }
     public void call_fact()
     {
-        fact_number = Random.Range(1, 11);
-
+        fact_number = Random.Range(1, 3);
 
         switch (Dag)
         {
             case true:
-
                 switch (fact_number)
                 {
                     case 1:
@@ -81,100 +72,20 @@ public class Button_Functions : MonoBehaviour
                         text_inlevel.text = "In Atlantis kan wat moeilijk overkomen, de hoge muren en het water tussen de ringen beschermt ons van allerlei soorten gevaren!";
                         StartCoroutine(clear_text());
                         break;
-                    case 3:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-
-                    case 4:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-
-                    case 5:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-
-                    case 6:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-                    case 7:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-
-                    case 8:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-                    case 9:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-
-                    case 10:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
                 }
 
                 break;
 
             case false:
-
                 switch (fact_number)
                 {
-                    case 1:
-                        text_inlevel.text = " hoe kan alles zo makkelijk kapot gaan? Atlantis is sterker gebouwt dan elk koninkrijk dan ook.";
-                        StartCoroutine(clear_text());
-                        break;
-                    case 2:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-
-                    case 3:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-                    case 4:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-
-                    case 5:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-                    case 6:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-
-                    case 7:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-                    case 8:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-
-                    case 9:
-                        text_inlevel.text = "";
-                        StartCoroutine(clear_text());
-                        break;
-                    case 10:
-                        text_inlevel.text = "";
+                    default:
+                        text_inlevel.text = " hoe kan alles zo makkelijk kapot gaan? Atlantis is sterker gebouwt dan elk ander koninkrijk dan ook.";
                         StartCoroutine(clear_text());
                         break;
                 }
                 break;
-
         }
-
     }
 
     IEnumerator clear_text()

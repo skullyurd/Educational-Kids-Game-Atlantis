@@ -4,20 +4,11 @@ using UnityEngine;
 
 public class activate_earthquake : MonoBehaviour
 {
-    Follow_Player camera_follow;
-    Earthquake aardbeving_script;
-    AudioSource aardbeving_geluid;
-    AudioSource music_happy;
-    Button_Functions switch_ramp;
-
-    void Start()
-    {
-        aardbeving_script = GameObject.Find("Earthquake").GetComponent<Earthquake>();
-        camera_follow = GameObject.Find("MainCamera").GetComponent<Follow_Player>();
-        aardbeving_geluid = GameObject.Find("Earthquake").GetComponent<AudioSource>();
-        music_happy = GameObject.Find("Music_Bewoner").GetComponent<AudioSource>();
-        switch_ramp = GameObject.Find("MainCamera").GetComponent<Button_Functions>();
-    }
+    [SerializeField] private Follow_Player camera_follow;
+    [SerializeField] private Earthquake aardbeving_script;
+    [SerializeField] private AudioSource aardbeving_geluid;
+    [SerializeField] private AudioSource music_happy;
+    [SerializeField] private Button_Functions switch_ramp;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

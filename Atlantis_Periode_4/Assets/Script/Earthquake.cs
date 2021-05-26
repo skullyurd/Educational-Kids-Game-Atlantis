@@ -4,31 +4,16 @@ using UnityEngine;
 
 public class Earthquake : MonoBehaviour
 {
-    public Transform camTransform;
+    [SerializeField] private Transform camTransform;
 
-    public float shakeDuration = 0f;
+    [SerializeField] private float shakeDuration = 0f;
 
-    public float shakeAmount = 0.7f;
-    public float decreaseFactor = 1.0f;
+    [SerializeField] private float shakeAmount = 0.7f;
+    [SerializeField] private float decreaseFactor = 1.0f;
 
-    Follow_Player camera_follow;
+    [SerializeField] private Follow_Player camera_follow;
 
-
-
-    Vector3 originalPos;
-
-    void Awake()
-    {
-
-        camera_follow = GameObject.Find("MainCamera").GetComponent<Follow_Player>();
-
-
-
-        if (camTransform == null)
-        {
-            camTransform = GetComponent(typeof(Transform)) as Transform;
-        }
-    }
+    private Vector3 originalPos;
 
     void OnEnable()
     {
